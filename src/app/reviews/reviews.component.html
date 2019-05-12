@@ -1,0 +1,8 @@
+<div class="blue">
+	<h3 class="display-4">The reviews component has a blue border.</h3>
+	<p class="lead">It's here because /reviews uses the router outlet in the root component.</p>
+	<button class="btn btn-outline-primary" [routerLink]="['details', 37]">Go to /reviews/details/37</button>
+  	<button class="btn btn-outline-info" [routerLink]="['author', 37]">Go to /reviews/author/37</button>
+  	<button class="btn btn-outline-success" [routerLink]="['all', 37]">Go to /reviews/all/37</button>
+  	<router-outlet></router-outlet>
+</div>

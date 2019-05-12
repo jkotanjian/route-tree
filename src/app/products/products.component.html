@@ -1,0 +1,8 @@
+<div class="purple">
+	<h3 class="display-4">The product component has a purple border.</h3>
+	<p class="lead">It's here because /products uses the router outlet in the root component.</p>
+	<button class="btn btn-outline-primary" [routerLink]="['details', 11]">Go to /products/details/11</button>
+  	<button class="btn btn-outline-info" [routerLink]="['category', 11]">Go to /products/category/11</button>
+  	<button class="btn btn-outline-success" [routerLink]="['brand', 11]">Go to /products/brand/11</button>
+  	<router-outlet></router-outlet>
+</div>
